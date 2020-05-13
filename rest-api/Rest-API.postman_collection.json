@@ -1,0 +1,258 @@
+{
+	"info": {
+		"_postman_id": "c502df49-34aa-4a75-8c55-884c4e1be388",
+		"name": "Rest-API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Mahasiswa",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "{{baseURL}}/api/mahasiswa",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"api",
+						"mahasiswa"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "2",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Mahasiswa",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "id",
+							"value": "38",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "{{baseURL}}/api/mahasiswa?id=49",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"api",
+						"mahasiswa"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "49"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post Mahasiswa",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "nohp",
+							"value": "12345609",
+							"type": "text"
+						},
+						{
+							"key": "nama",
+							"value": "uji1",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "uji1",
+							"type": "text"
+						},
+						{
+							"key": "jurusan",
+							"value": "Teknik Informatika",
+							"type": "text"
+						},
+						{
+							"key": "tgl_lahir",
+							"value": "20 April 2020",
+							"type": "text"
+						},
+						{
+							"key": "alamat",
+							"value": "Jl. Raya Kota Provinsi",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "1234",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{baseURL}}/api/mahasiswa",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"api",
+						"mahasiswa"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Put Mahasiswa",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "id",
+							"value": "50",
+							"type": "text"
+						},
+						{
+							"key": "nohp",
+							"value": "1234",
+							"type": "text"
+						},
+						{
+							"key": "nama",
+							"value": "uji1",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "uji1",
+							"type": "text"
+						},
+						{
+							"key": "jurusan",
+							"value": "Manajemen",
+							"type": "text"
+						},
+						{
+							"key": "tgl_lahir",
+							"value": "20 April 2020",
+							"type": "text"
+						},
+						{
+							"key": "alamat",
+							"value": "Jl. Tangerangg",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "123456780",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{baseURL}}/api/mahasiswa",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"api",
+						"mahasiswa"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "email",
+							"value": "uji1",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "123456780",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{baseURL}}/api/mahasiswa",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"api",
+						"mahasiswa"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
